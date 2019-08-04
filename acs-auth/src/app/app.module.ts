@@ -13,6 +13,8 @@ import { HorizontalInfoBoxComponent } from './horizontal-info-box/horizontal-inf
 import { VerticalGraphInfoBoxComponent } from './vertical-graph-info-box/vertical-graph-info-box.component';
 import { HorizontalListItemCardBoxComponent } from './horizontal-list-item-card-box/horizontal-list-item-card-box.component';
 import { VerticalCardBoxComponent } from './vertical-card-box/vertical-card-box.component';
+import { ManageUsersComponent } from './manage-users/manage-users.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 @NgModule({
@@ -27,6 +29,8 @@ import { VerticalCardBoxComponent } from './vertical-card-box/vertical-card-box.
     VerticalGraphInfoBoxComponent,
     HorizontalListItemCardBoxComponent,
     VerticalCardBoxComponent,
+    ManageUsersComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,

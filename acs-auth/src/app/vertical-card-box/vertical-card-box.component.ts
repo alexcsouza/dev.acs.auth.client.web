@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostBinding } from '@angular/core';
 
 @Component({
   selector: 'app-vertical-card-box',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./vertical-card-box.component.css']
 })
 export class VerticalCardBoxComponent implements OnInit {
+
+  @HostBinding('class') styleClass = 'col-lg-4';
 
   constructor() { }
 
