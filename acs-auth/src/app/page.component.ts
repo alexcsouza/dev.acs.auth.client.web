@@ -1,17 +1,16 @@
-import { Input, Component, HostBinding } from '@angular/core';
+import { Component, HostBinding, Input } from '@angular/core';
 
-//@Component({
-  //selector: 'app-page',
-  //templateUrl: './dashboard.component.html',
-  //styleUrls: ['./dashboard.component.css']
-//})
-export class PageComponent{
+/*
+@Component({
+  selector: 'app-page',
+  templateUrl: './page.component.html',
+  styleUrls: []
+})
+*/
+export class PageComponent {
 
   @HostBinding('class') styleClass = 'page-content';
 
-  constructor(@Input() public title: string = '') {}
-
-  ngOnInit() {
-  }
+  constructor(@Input() public title: string = '', @Input() public breadcrumb: string = '') {}
 
 }

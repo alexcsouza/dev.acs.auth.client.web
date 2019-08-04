@@ -8,7 +8,7 @@ import { PageComponent } from '../page.component';
 })
 export class DashboardComponent extends PageComponent implements OnInit {
 
-  constructor() { super('Dashboard') }
+  constructor() { super('Dashboard', ''); }
 
   ngOnInit() {
   }
